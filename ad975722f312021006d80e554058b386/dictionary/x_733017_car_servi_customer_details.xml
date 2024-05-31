@@ -3,6 +3,8 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Car Company" max_length="40" name="car_company" type="string">
             <choice>
                 <element inactive_on_update="false" label="Test" value="test"/>
+                <element inactive_on_update="false" label="Test2" value="test_2"/>
+                <element inactive_on_update="false" label="Test3" value="test_3"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Account ID" max_length="40" name="u_account_id" type="string" use_dynamic_default="true"/>
