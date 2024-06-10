@@ -1,39 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d7db1beef312021006d80e554058b382" extends="sys_user" label="Customer Details" max_length="40" name="x_733017_car_servi_customer_details" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Transmission" max_length="40" name="u_transmission" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Engine Detail" max_length="40" name="u_engine_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Color" max_length="40" name="color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mode Of Payment" max_length="40" name="u_paymt_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Bank" max_length="40" name="bank" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Identification Number (VIN)" mandatory="true" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchased Date" mandatory="true" max_length="40" name="u_purchased_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Driving License" mandatory="true" max_length="40" name="u_driving_lic" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Car Company" max_length="40" name="car_company" type="string">
             <choice>
-                <element inactive_on_update="false" label="Audi" value="audi"/>
-                <element inactive_on_update="false" label="Audi" value="audi"/>
-                <element inactive_on_update="false" label="BMW" value="bmw"/>
-                <element inactive_on_update="false" label="BMW" value="bmw"/>
-                <element inactive_on_update="false" label="BMW" value="bmw"/>
-                <element inactive_on_update="false" label="Chevrolet" value="chevrolet"/>
-                <element inactive_on_update="false" label="Chevrolet" value="chevrolet"/>
-                <element inactive_on_update="false" label="Chevrolet" value="chevrolet"/>
-                <element inactive_on_update="false" label="Chevrolet" value="chevrolet"/>
-                <element inactive_on_update="false" label="Ford" value="ford"/>
-                <element inactive_on_update="false" label="Ford" value="ford"/>
-                <element inactive_on_update="false" label="Ford" value="ford"/>
-                <element inactive_on_update="false" label="Ford" value="ford"/>
-                <element inactive_on_update="false" label="Ford" value="ford"/>
-                <element inactive_on_update="false" label="Honda" value="honda"/>
-                <element inactive_on_update="false" label="Honda" value="honda"/>
-                <element inactive_on_update="false" label="Honda" value="honda"/>
-                <element inactive_on_update="false" label="Jeep" value="jeep"/>
-                <element inactive_on_update="false" label="Kia" value="kia"/>
-                <element inactive_on_update="false" label="Lexus" value="lexus"/>
-                <element inactive_on_update="false" label="Mercedes-Benz" value="mercedes-benz"/>
-                <element inactive_on_update="false" label="Mercedes-Benz" value="mercedes-benz"/>
-                <element inactive_on_update="false" label="Nissan" value="nissan"/>
-                <element inactive_on_update="false" label="Subaru" value="subaru"/>
-                <element inactive_on_update="false" label="Subaru" value="subaru"/>
-                <element inactive_on_update="false" label="Tesla" value="tesla"/>
-                <element inactive_on_update="false" label="Tesla" value="tesla"/>
-                <element inactive_on_update="false" label="Toyota" value="toyota"/>
-                <element inactive_on_update="false" label="Toyota" value="toyota"/>
-                <element inactive_on_update="false" label="Toyota" value="toyota"/>
+                <element inactive_on_update="false" label="Toyota" sequence="8" value="toyota"/>
+                <element inactive="true" inactive_on_update="true" label="Tesla" sequence="13" value="tesla"/>
+                <element inactive_on_update="false" label="Chevrolet" sequence="2" value="chevrolet"/>
+                <element inactive="true" inactive_on_update="true" label="Mercedes-Benz" sequence="11" value="mercedes-benz"/>
+                <element inactive="true" inactive_on_update="true" label="Honda" sequence="8" value="honda"/>
+                <element inactive_on_update="false" label="Honda" sequence="4" value="honda"/>
+                <element inactive_on_update="false" label="Ford" sequence="3" value="ford"/>
+                <element inactive_on_update="false" label="Chevrolet" sequence="1" value="chevrolet"/>
+                <element inactive_on_update="false" label="Ford" sequence="2" value="ford"/>
+                <element inactive_on_update="false" label="Ford" sequence="1" value="ford"/>
+                <element inactive_on_update="false" label="Nissan" sequence="12" value="nissan"/>
+                <element inactive_on_update="false" label="Toyota" sequence="5" value="toyota"/>
+                <element inactive="true" inactive_on_update="true" label="Subaru" sequence="12" value="subaru"/>
+                <element inactive_on_update="false" label="Tesla" sequence="8" value="tesla"/>
+                <element inactive_on_update="false" label="Mercedes-Benz" sequence="6" value="mercedes-benz"/>
+                <element inactive_on_update="false" label="Ford" sequence="0" value="ford"/>
+                <element inactive="true" inactive_on_update="true" label="Audi" sequence="4" value="audi"/>
+                <element inactive="true" inactive_on_update="true" label="BMW" sequence="6" value="bmw"/>
+                <element inactive_on_update="false" label="Jeep" sequence="9" value="jeep"/>
+                <element inactive_on_update="false" label="Toyota" sequence="5" value="toyota"/>
+                <element inactive_on_update="false" label="BMW" sequence="3" value="bmw"/>
+                <element inactive_on_update="false" label="Ford" sequence="0" value="ford"/>
+                <element inactive_on_update="false" label="Kia" sequence="10" value="kia"/>
+                <element inactive_on_update="false" label="Subaru" sequence="7" value="subaru"/>
+                <element inactive_on_update="false" label="Chevrolet" sequence="1" value="chevrolet"/>
+                <element inactive_on_update="false" label="BMW" sequence="3" value="bmw"/>
+                <element inactive_on_update="false" label="Honda" sequence="4" value="honda"/>
+                <element inactive_on_update="false" label="Lexus" sequence="11" value="lexus"/>
+                <element inactive_on_update="false" label="Audi" sequence="2" value="audi"/>
+                <element inactive_on_update="false" label="Chevrolet" sequence="1" value="chevrolet"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Account ID" max_length="40" name="u_account_id" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_modle" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RTO Location" max_length="40" name="u_rto_location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bihar" value="bihar"/>
+                <element inactive_on_update="false" label="Haryana" value="haryana"/>
+                <element inactive_on_update="false" label="Nagaland" value="nagaland"/>
+                <element inactive_on_update="false" label="Kerala" value="kerala"/>
+                <element inactive_on_update="false" label="Meghalaya" value="meghalaya"/>
+                <element inactive_on_update="false" label="Uttarakhand" value="uttarakhand"/>
+                <element inactive_on_update="false" label="Tamil Nadu" value="tamil nadu"/>
+                <element inactive_on_update="false" label="Chhattisgarh" value="chhattisgarh"/>
+                <element inactive_on_update="false" label="Himachal Pradesh" value="himachal pradesh"/>
+                <element inactive_on_update="false" label="Madhya Pradesh" value="madhya pradesh"/>
+                <element inactive_on_update="false" label="Odisha" value="odisha"/>
+                <element inactive_on_update="false" label="Punjab" value="punjab"/>
+                <element inactive_on_update="false" label="Telangana" value="telangana"/>
+                <element inactive_on_update="false" label="West Bengal" value="west bengal"/>
+                <element inactive_on_update="false" label="Andhra Pradesh" value="andhra pradesh"/>
+                <element inactive_on_update="false" label="Arunachal Pradesh" value="arunachal pradesh"/>
+                <element inactive_on_update="false" label="Goa" value="goa"/>
+                <element inactive_on_update="false" label="Maharashtra" value="maharashtra"/>
+                <element inactive_on_update="false" label="Jharkhand" value="jharkhand"/>
+                <element inactive_on_update="false" label="Rajasthan" value="rajasthan"/>
+                <element inactive_on_update="false" label="Tripura" value="tripura"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Assam" value="assam"/>
+                <element inactive_on_update="false" label="Gujarat" value="gujarat"/>
+                <element inactive_on_update="false" label="Mizoram" value="mizoram"/>
+                <element inactive_on_update="false" label="Karnataka" value="karnataka"/>
+                <element inactive_on_update="false" label="Manipur" value="manipur"/>
+                <element inactive_on_update="false" label="Uttar Pradesh" value="uttar pradesh"/>
+                <element inactive_on_update="false" label="Sikkim" value="sikkim"/>
+            </choice>
+        </element>
+        <element label="Finance" max_length="40" name="finance" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Policy Issue Date" max_length="40" name="u_policy_issue_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Policy Number" max_length="40" name="u_policy_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fuel Type" max_length="40" name="u_fuel_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Variant" max_length="40" name="variant" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Registration Year" max_length="40" name="u_registration_year" type="string"/>
+        <element label="Down Payment" max_length="40" name="down_payment" type="float"/>
     </element>
 </database>
