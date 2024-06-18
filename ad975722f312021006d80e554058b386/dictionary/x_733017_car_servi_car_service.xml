@@ -3,9 +3,19 @@
         <element attributes="encode_utf8=false" label="Customer" mandatory="true" max_length="32" name="u_customer" reference="x_733017_car_servi_customer_details" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Car Company" max_length="40" name="u_choice_7" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Chevrolet" value="chevrolet"/>
+                <element inactive_on_update="false" label="Audi" value="audi"/>
+                <element inactive_on_update="false" label="Jeep" value="jeep"/>
+                <element inactive_on_update="false" label="Honda" value="honda"/>
+                <element inactive_on_update="false" label="Kia" value="kia"/>
+                <element inactive_on_update="false" label="Nissan" value="nissan"/>
+                <element inactive_on_update="false" label="Mercedes-Benz" value="mercedes-benz"/>
+                <element inactive_on_update="false" label="BMW" value="bmw"/>
+                <element inactive_on_update="false" label="Subaru" value="subaru"/>
+                <element inactive_on_update="false" label="Toyota" value="toyota"/>
+                <element inactive_on_update="false" label="Ford" value="ford"/>
+                <element inactive_on_update="false" label="Tesla" value="tesla"/>
+                <element inactive_on_update="false" label="Lexus" value="lexus"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="u_mobile_number" type="string"/>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_customer</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Customer Info Details</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+		g_form.clearValue("u_first_name")
+		g_form.clearValue("u_last_name")
+		g_form.clearValue("u_emails")
+		g_form.clearValue("u_mobile_number")
+		g_form.clearValue("u_location")
+		g_form.clearValue("u_choice_7")
+
+
+
+        return;
+    }
+    var ga = new GlideAjax('getCustomerInfo');
+    ga.addParam('sysparm_name', 'getCustomerDetails');
+    ga.addParam('sysparm_user_name', newValue);
+    ga.getXML(HelloWorldParse);
+
+
+    function HelloWorldParse(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+            var customerInfo = JSON.parse(answer);
+            g_form.setValue('u_first_name', customerInfo[0].first_name);
+            g_form.setValue('u_last_name', customerInfo[0].last_name);
+            g_form.setValue('u_emails', customerInfo[0].email);
+            g_form.setValue('u_mobile_number', customerInfo[0].mobile_phone);
+            g_form.setValue('u_location', customerInfo[0].location, customerInfo[0].location2);
+            g_form.setValue('u_choice_7', customerInfo[0].car_company);
+
+        
+
+
+    }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-18 10:38:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9a080bef336021006d80e554058b3d4</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Customer Info Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sys_script_client_d9a080bef336021006d80e554058b3d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-18 11:32:42</sys_updated_on>
+        <table>x_733017_car_servi_car_service</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
