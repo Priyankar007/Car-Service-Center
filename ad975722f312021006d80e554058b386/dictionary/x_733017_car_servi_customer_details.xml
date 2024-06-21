@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d7db1beef312021006d80e554058b382" extends="sys_user" label="Customer Details" max_length="40" name="x_733017_car_servi_customer_details" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Transmission" max_length="40" name="u_transmission" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Model" max_length="40" name="u_model_innova" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Innova" sequence="0" value="innova"/>
+                <element inactive_on_update="false" label="Fortuner" sequence="2" value="fortuner"/>
+                <element inactive_on_update="false" label="Urban Cruser" sequence="1" value="urban cruser"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Engine Detail" max_length="40" name="u_engine_details" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Color" max_length="40" name="color" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Mode Of Payment" max_length="40" name="u_paymt_method" type="string">

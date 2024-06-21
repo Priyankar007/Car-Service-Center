@@ -4,27 +4,27 @@
             <element>u_string_6</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>afb0a344f3ba021006d80e554058b346</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>56f78837f3f6461006d80e554058b3a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_modle</element>
+            <element>u_model_innova</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>27b0a344f3ba021006d80e554058b347</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>daf78837f3f6461006d80e554058b3a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_fuel_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>abb0a344f3ba021006d80e554058b347</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>52f78837f3f6461006d80e554058b3a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_transmission</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>23b0a344f3ba021006d80e554058b348</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>d6f78837f3f6461006d80e554058b3a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>a7b0a344f3ba021006d80e554058b348</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>5ef78837f3f6461006d80e554058b3a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_registration_year</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>2fb0a344f3ba021006d80e554058b348</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>d2f78837f3f6461006d80e554058b3a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>color</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>a3b0a344f3ba021006d80e554058b349</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>5af78837f3f6461006d80e554058b3a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>variant</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>2bb0a344f3ba021006d80e554058b349</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>def78837f3f6461006d80e554058b3a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>u_engine_details</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-10 13:42:16</sys_created_on>
-            <sys_id>afb0a344f3ba021006d80e554058b349</sys_id>
+            <sys_created_on>2024-06-21 13:32:25</sys_created_on>
+            <sys_id>56f78837f3f6461006d80e554058b3a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">90c765ddf322021006d80e554058b3de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 13:42:16</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:32:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
