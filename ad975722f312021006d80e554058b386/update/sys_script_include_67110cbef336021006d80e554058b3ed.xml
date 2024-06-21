@@ -26,6 +26,15 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             obj.location = cusD.getValue('u_address');
 			obj.location2 = cusD.getDisplayValue('u_address');// FOR DISPLAY VALUE OF LOCATION
             obj.car_company = cusD.getValue('car_company');
+			///Vehical Info
+			obj.u_string_6 = cusD.getValue('u_string_6');
+			obj.u_modle = cusD.getValue('u_modle');
+			obj.u_fuel_type = cusD.getValue('u_fuel_type');
+			obj.u_transmission = cusD.getValue('u_transmission');
+			obj.u_registration_year = cusD.getValue('u_registration_year');
+			obj.color = cusD.getValue('color');
+			obj.variant = cusD.getValue('variant')
+			obj.u_engine_details = cusD.getValue('u_engine_details')
 			array.push(obj);
 		}
 		return JSON.stringify(array);
@@ -37,13 +46,13 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-18 10:38:08</sys_created_on>
         <sys_id>67110cbef336021006d80e554058b3ed</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>getCustomerInfo</sys_name>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_include_67110cbef336021006d80e554058b3ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-18 12:48:17</sys_updated_on>
+        <sys_updated_on>2024-06-21 12:31:31</sys_updated_on>
     </sys_script_include>
 </record_update>

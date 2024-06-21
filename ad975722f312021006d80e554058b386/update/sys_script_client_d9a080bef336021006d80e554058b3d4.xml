@@ -19,7 +19,7 @@
         // g_form.clearValue("u_location")
         // g_form.clearValue("u_choice_7")
 
-        return;
+       return ;
     }
     var ga = new GlideAjax('getCustomerInfo');
     ga.addParam('sysparm_name', 'getCustomerDetails');
@@ -30,18 +30,24 @@
     function HelloWorldParse(response) {
         var answer = response.responseXML.documentElement.getAttribute("answer");
         var customerInfo = JSON.parse(answer);
-		
+
         g_form.setValue('u_first_name', customerInfo[0].first_name);
         g_form.setValue('u_last_name', customerInfo[0].last_name);
         g_form.setValue('u_emails', customerInfo[0].email);
         g_form.setValue('u_mobile_number', customerInfo[0].mobile_phone);
         g_form.setValue('u_location', customerInfo[0].location, customerInfo[0].location2);
         g_form.setValue('u_choice_7', customerInfo[0].car_company);
+       
+        g_form.setValue('veh_id_number', customerInfo[0].u_string_6);
+        g_form.setValue('u_model', customerInfo[0].u_modle);
+        g_form.setValue('u_fuel_type', customerInfo[0].u_fuel_type);
+        g_form.setValue('u_transmission', customerInfo[0].u_transmission);
+        g_form.setValue('u_registration_number', customerInfo[0].u_registration_year);
+        g_form.setValue('variant', customerInfo[0].variant);
+        g_form.setValue('u_engine_details', customerInfo[0].u_engine_details);//
+		g_form.setValue('u_color', customerInfo[0].color)
+
 		
-
-
-
-
     }
 
 
@@ -52,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9a080bef336021006d80e554058b3d4</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Customer Info Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
@@ -60,7 +66,7 @@
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_client_d9a080bef336021006d80e554058b3d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-18 13:26:51</sys_updated_on>
+        <sys_updated_on>2024-06-21 12:48:41</sys_updated_on>
         <table>x_733017_car_servi_car_service</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

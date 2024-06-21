@@ -4,13 +4,13 @@
             <element>u_first_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>52750535f372021006d80e554058b3d9</sys_id>
+            <sys_created_on>2024-06-21 13:06:06</sys_created_on>
+            <sys_id>89f1883ff3b6461006d80e554058b301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:06:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_last_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>d6750535f372021006d80e554058b3d9</sys_id>
+            <sys_created_on>2024-06-21 13:06:06</sys_created_on>
+            <sys_id>01f1883ff3b6461006d80e554058b302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:06:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_choice_7</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>5e750535f372021006d80e554058b3d9</sys_id>
+            <sys_created_on>2024-06-21 13:06:06</sys_created_on>
+            <sys_id>85f1883ff3b6461006d80e554058b302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:06:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>d2750535f372021006d80e554058b3da</sys_id>
+            <sys_created_on>2024-06-21 13:06:06</sys_created_on>
+            <sys_id>0df1883ff3b6461006d80e554058b302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:06:06</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_emails</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>5a750535f372021006d80e554058b3da</sys_id>
+            <sys_created_on>2024-06-21 13:06:06</sys_created_on>
+            <sys_id>81f1883ff3b6461006d80e554058b303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:06:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_mobile_number</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>de750535f372021006d80e554058b3da</sys_id>
+            <sys_created_on>2024-06-21 13:06:06</sys_created_on>
+            <sys_id>09f1883ff3b6461006d80e554058b303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:06:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,55 +88,13 @@
             <element>u_location</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>56750535f372021006d80e554058b3db</sys_id>
+            <sys_created_on>2024-06-21 13:06:06</sys_created_on>
+            <sys_id>8df1883ff3b6461006d80e554058b303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>da750535f372021006d80e554058b3db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>52750535f372021006d80e554058b3dc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-15 12:53:15</sys_created_on>
-            <sys_id>d6750535f372021006d80e554058b3dc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-15 12:53:15</sys_updated_on>
+            <sys_updated_on>2024-06-21 13:06:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
