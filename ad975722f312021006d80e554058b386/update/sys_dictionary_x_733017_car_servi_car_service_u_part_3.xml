@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_stage" table="x_733017_car_servi_car_service">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_part_3" table="x_733017_car_servi_car_service">
         <active>true</active>
         <array>false</array>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>3</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Stage</column_label>
+        <column_label>Part 3</column_label>
         <comments/>
         <create_roles/>
-        <default_value>customer_info</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_stage</element>
+        <element>u_part_3</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -33,7 +33,7 @@
         <name>x_733017_car_servi_car_service</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-15 12:59:32</sys_created_on>
-        <sys_name>Stage</sys_name>
+        <sys_created_on>2024-06-22 11:47:55</sys_created_on>
+        <sys_name>Part 3</sys_name>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
-        <sys_update_name>sys_dictionary_x_733017_car_servi_car_service_u_stage</sys_update_name>
+        <sys_update_name>sys_dictionary_x_733017_car_servi_car_service_u_part_3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-22 12:42:11</sys_updated_on>
+        <sys_updated_on>2024-06-22 11:47:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
