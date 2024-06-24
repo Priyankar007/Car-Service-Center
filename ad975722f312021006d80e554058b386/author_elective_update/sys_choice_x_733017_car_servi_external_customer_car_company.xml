@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="car_company" table="x_733017_car_servi_external_customer" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>car_company</element>
+            <name>x_733017_car_servi_external_customer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>car_company</sys_name>
+            <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+            <sys_update_name>sys_choice_x_733017_car_servi_external_customer_car_company</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audi</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>audi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mercedes-Benz</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>mercedes-benz</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subaru</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>subaru</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tesla</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>tesla</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jeep</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>jeep</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kia</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>kia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lexus</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>lexus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>car_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nissan</label>
+            <language>en</language>
+            <name>x_733017_car_servi_external_customer</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:38:24</sys_updated_on>
+            <value>nissan</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -4,13 +4,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>f7f5372ff376461006d80e554058b331</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>c1641904f34b021006d80e554058b34f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">3b16d4faf3b6021006d80e554058b38f</sys_ui_formatter>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>b3f5372ff376461006d80e554058b332</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>8d641904f34b021006d80e554058b34f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_receipt_number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>3bf5372ff376461006d80e554058b332</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>05641904f34b021006d80e554058b350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,83 +46,111 @@
             <element>u_customer</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>bff5372ff376461006d80e554058b332</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>89641904f34b021006d80e554058b350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_external_customer</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>01641904f34b021006d80e554058b351</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_check_external</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>85641904f34b021006d80e554058b351</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>37f5372ff376461006d80e554058b333</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>0d641904f34b021006d80e554058b351</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_stage</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>bbf5372ff376461006d80e554058b333</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>81641904f34b021006d80e554058b352</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>33f5372ff376461006d80e554058b334</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>09641904f34b021006d80e554058b352</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_working_group</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>b7f5372ff376461006d80e554058b334</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>8d641904f34b021006d80e554058b352</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_assigned_people</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-21 12:13:52</sys_created_on>
-            <sys_id>3ff5372ff376461006d80e554058b334</sys_id>
+            <sys_created_on>2024-06-22 13:44:45</sys_created_on>
+            <sys_id>05641904f34b021006d80e554058b353</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-21 12:13:52</sys_updated_on>
+            <sys_updated_on>2024-06-22 13:44:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

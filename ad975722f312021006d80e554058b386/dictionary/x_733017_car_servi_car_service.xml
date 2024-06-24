@@ -6,12 +6,12 @@
         <element label="Spark Plugs" max_length="40" name="u_spark_plug" type="boolean"/>
         <element label="Engine Oil and Oil Filter" max_length="40" name="u_engine_oil_filter" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Part 5" max_length="40" name="u_part_5" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Registration Year" max_length="40" name="u_registration_number" type="string"/>
-        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Assigned People" max_length="1024" name="u_assigned_people" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Registration Year" max_length="40" name="u_registration_number" read_only="true" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" dependent="u_working_group" dependent_on_field="u_working_group" label="Assigned People" max_length="1024" name="u_assigned_people" reference="sys_user" type="glide_list" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="XX" max_length="40" name="u_string_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Part 2" max_length="40" name="u_part_2" type="string"/>
-        <element attributes="encode_utf8=false" label="Customer" mandatory="true" max_length="32" name="u_customer" reference="x_733017_car_servi_customer_details" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Car Company" max_length="40" name="u_choice_7" type="string">
+        <element attributes="encode_utf8=false" label="Customer" max_length="32" name="u_customer" reference="x_733017_car_servi_customer_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Car Company" max_length="40" name="u_choice_7" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Chevrolet" value="chevrolet"/>
                 <element inactive_on_update="false" label="Audi" value="audi"/>
@@ -28,7 +28,7 @@
                 <element inactive_on_update="false" label="Lexus" value="lexus"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" read_only="true" type="string"/>
         <element label="Brake Fluid" max_length="40" name="u_brake_fluid" type="boolean"/>
         <element label="Fuel Filter" max_length="40" name="u_fuel_filters" type="boolean"/>
         <element label="Cabin Air Filter" max_length="40" name="u_cabin_air_filter" type="boolean"/>
@@ -44,12 +44,12 @@
                 <element inactive_on_update="false" label="Innova" sequence="0" value="innova"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="u_mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="u_mobile_number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Receipt Number" max_length="40" name="u_receipt_number" type="string" use_dynamic_default="true"/>
-        <element attributes="encode_utf8=false" label="Location" max_length="32" name="u_location" reference="cmdb_multisource_deny_class" type="reference"/>
-        <element label="Air Filters" max_length="40" name="u_air_filters" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="u_location" read_only="true" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element label="Filters" max_length="40" name="u_air_filters" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" hint="Please describe the issue you are experiencing with your car" label="Customer Issues" max_length="400" name="u_customer_issue" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Color" max_length="40" name="u_color" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Color" max_length="40" name="u_color" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
@@ -57,20 +57,20 @@
             </choice>
         </element>
         <element attributes="omit_sys_original=true" label="Part 4 : Price" max_length="20" name="u_currency_12" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Transmission" max_length="40" name="u_transmission" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transmission" max_length="40" name="u_transmission" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Part 3" max_length="40" name="u_part_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Part 1" max_length="40" name="u_part_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Engine Details" max_length="40" name="u_engine_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Engine Details" max_length="40" name="u_engine_details" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Part 6" max_length="40" name="u_part_6" type="string"/>
         <element label="Oil Filter" max_length="40" name="u_oil_filter" type="boolean"/>
         <element label="Engine Oil" max_length="40" name="u_engine_oil" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_emails" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_emails" read_only="true" type="string"/>
         <element label="KM Driven(in kilometers)" max_length="40" name="u_km_driven" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Scheduled End" mandatory="true" max_length="40" name="u_scheduled_end" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Fuel Type" max_length="40" name="u_fuel_type" type="string"/>
-        <element attributes="encode_utf8=false" label="Working Group" max_length="32" name="u_working_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Fuel Type" max_length="40" name="u_fuel_type" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Working Group" max_length="32" name="u_working_group" reference="sys_user_group" reference_qual="typeLIKEbe2a57e0f34b021006d80e554058b38d^EQ" reference_qual_condition="typeLIKEbe2a57e0f34b021006d80e554058b38d^EQ" type="reference"/>
         <element label="Total" max_length="40" name="u_total_price" read_only="true" type="float"/>
-        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" read_only="true" type="string"/>
         <element label="Brake Components" max_length="40" name="u_break_component" type="boolean"/>
         <element label="Air Filter" max_length="40" name="u_air_filter_outside" type="boolean"/>
         <element attributes="omit_sys_original=true" label="Part 1: Price" max_length="20" name="u_currency_9" type="currency"/>
@@ -87,7 +87,7 @@
         <element attributes="omit_sys_original=true" label="Part 5 : Price" max_length="20" name="u_currency_13" type="currency"/>
         <element attributes="edge_encryption_enabled=true" hint="Please describe any important issues or concerns you, as the mechanic, have identified." label="Additional Concern" max_length="400" name="u_additional_concern" type="string"/>
         <element attributes="omit_sys_original=true" label="Part 2: Price" max_length="20" name="u_currency_10" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Varient" max_length="40" name="u_varient" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Varient" max_length="40" name="u_varient" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
@@ -95,7 +95,9 @@
             </choice>
         </element>
         <element attributes="omit_sys_original=true" label="Part 3 : Price" max_length="20" name="u_currency_11" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Vehicle Identification Number (VIN)" max_length="40" name="veh_id_number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Identification Number (VIN)" max_length="40" name="veh_id_number" read_only="true" type="string"/>
+        <element label="External Customer" max_length="40" name="u_check_external" type="boolean"/>
+        <element attributes="encode_utf8=false" label="External Customer" max_length="32" name="u_external_customer" reference="x_733017_car_servi_external_customer" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" read_only="true" type="string"/>
     </element>
 </database>

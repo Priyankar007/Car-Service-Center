@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Financial Information" section_id="06825940f34b021006d80e554058b36d" sys_domain="global" table="x_733017_car_servi_external_customer" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_paymt_method</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+            <sys_id>8e825940f34b021006d80e554058b36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+            <sys_id>02825940f34b021006d80e554058b371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+            <sys_id>c2825940f34b021006d80e554058b36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+            <sys_id>8a825940f34b021006d80e554058b370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>down_payment</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+            <sys_id>06825940f34b021006d80e554058b370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Financial Information</caption>
+            <header>false</header>
+            <name>x_733017_car_servi_external_customer</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06825940f34b021006d80e554058b36d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_733017_car_servi_external_customer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+            <sys_update_name>sys_ui_section_06825940f34b021006d80e554058b36d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Service Center">ad975722f312021006d80e554058b386</application>
+        <file_path/>
+        <instance_id>05a26e231b35061c65324089bd4bcb82</instance_id>
+        <instance_name>dev263179</instance_name>
+        <name>sys_ui_section_06825940f34b021006d80e554058b36d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Financial Information" section_id="06825940f34b021006d80e554058b36d" sys_domain="global" table="x_733017_car_servi_external_customer" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_paymt_method</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-22 13:36:38</sys_created_on><sys_id>8e825940f34b021006d80e554058b36f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-22 13:36:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bank</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-22 13:36:38</sys_created_on><sys_id>02825940f34b021006d80e554058b371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-22 13:36:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-22 13:36:38</sys_created_on><sys_id>c2825940f34b021006d80e554058b36f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-22 13:36:38</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>finance</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-22 13:36:38</sys_created_on><sys_id>8a825940f34b021006d80e554058b370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-22 13:36:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>down_payment</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-22 13:36:38</sys_created_on><sys_id>06825940f34b021006d80e554058b370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial Information" display_value="Financial Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">06825940f34b021006d80e554058b36d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-22 13:36:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Financial Information</caption><header>false</header><name>x_733017_car_servi_external_customer</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-22 13:36:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>06825940f34b021006d80e554058b36d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_733017_car_servi_external_customer</sys_name><sys_overrides/><sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package><sys_policy/><sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope><sys_update_name>sys_ui_section_06825940f34b021006d80e554058b36d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-22 13:36:37</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1754351874</payload_hash>
+        <record_name>External Customer </record_name>
+        <reverted_from/>
+        <source>8d491fe6f312021006d80e554058b34d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+        <sys_id>c2825940f34b021006d80e554058b373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1904029c6e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 13:36:38</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4a825940db4b02100c4c6676bb61fd72</update_guid>
+        <update_guid_history>4a825940db4b02100c4c6676bb61fd72:1754351874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 13:41:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0b82e5dc03cd40a1814239ba8ef2a361</sys_id>
+        <sys_metadata>06825940f34b021006d80e554058b36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Financial Information</sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_parent display_value="External Customer ">078e89c8f30b021006d80e554058b367</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_scope_delete display_value="">d2d1f4adc4cb44f3a9e61bae3a2bb449</sys_scope_delete>
+        <sys_update_name>sys_ui_section_06825940f34b021006d80e554058b36d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_06825940f34b021006d80e554058b36d">c2825940f34b021006d80e554058b373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 13:41:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

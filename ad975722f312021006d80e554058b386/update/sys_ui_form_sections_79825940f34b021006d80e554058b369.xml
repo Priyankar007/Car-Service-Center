@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="79825940f34b021006d80e554058b369" sys_domain="global" table="x_733017_car_servi_external_customer" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e825940f34b021006d80e554058b38d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_external_customer" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">79825940f34b021006d80e554058b369</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">42825940f34b021006d80e554058b386</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce825940f34b021006d80e554058b394</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_external_customer" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">79825940f34b021006d80e554058b369</sys_ui_form>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_733017_car_servi_external_customer" sys_domain="global" view="Default view">42825940f34b021006d80e554058b38e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:41:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_733017_car_servi_external_customer</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-22 13:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79825940f34b021006d80e554058b369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_733017_car_servi_external_customer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+            <sys_update_name>sys_ui_form_sections_79825940f34b021006d80e554058b369</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-22 13:36:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
