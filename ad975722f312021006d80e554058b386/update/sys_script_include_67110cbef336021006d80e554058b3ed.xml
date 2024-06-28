@@ -10,35 +10,49 @@
         <script><![CDATA[var getCustomerInfo = Class.create();
 getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
-	getCustomerDetails : function(){
-		var array = [];
-		var paramt = this.getParameter("sysparm_user_name");
-		var cusD = new GlideRecordSecure("x_733017_car_servi_customer_details");
-		cusD.addActiveQuery();
-		cusD.addQuery('sys_id',paramt);
-		cusD.query();
-		if(cusD.next()){
-			var obj = {};
-			obj.first_name = cusD.getValue('first_name');
+    getCustomerDetails: function() {
+        var array = [];
+        var paramt = this.getParameter("sysparm_user_name");
+        var cusD = new GlideRecordSecure("x_733017_car_servi_customer_details");
+        cusD.addActiveQuery();
+        cusD.addQuery('sys_id', paramt);
+        cusD.query();
+        if (cusD.next()) {
+            var obj = {};
+            obj.first_name = cusD.getValue('first_name');
             obj.last_name = cusD.getValue('last_name');
             obj.email = cusD.getValue('email');
             obj.mobile_phone = cusD.getValue('mobile_phone');
             obj.location = cusD.getValue('u_address');
-			obj.location2 = cusD.getDisplayValue('u_address');// FOR DISPLAY VALUE OF LOCATION
+            obj.location2 = cusD.getDisplayValue('u_address'); // FOR DISPLAY VALUE OF LOCATION
             obj.car_company = cusD.getValue('car_company');
-			///Vehical Info
-			obj.u_string_6 = cusD.getValue('u_string_6');
-			obj.u_modle = cusD.getValue('u_modle');
-			obj.u_fuel_type = cusD.getValue('u_fuel_type');
-			obj.u_transmission = cusD.getValue('u_transmission');
-			obj.u_registration_year = cusD.getValue('u_registration_year');
-			obj.color = cusD.getValue('color');
-			obj.variant = cusD.getValue('variant')
-			obj.u_engine_details = cusD.getValue('u_engine_details')
-			array.push(obj);
+            ///Vehical Info
+            obj.u_string_6 = cusD.getValue('u_string_6');
+            obj.u_modle = cusD.getValue('u_modle');
+            obj.u_fuel_type = cusD.getValue('u_fuel_type');
+            obj.u_transmission = cusD.getValue('u_transmission');
+            obj.u_registration_year = cusD.getValue('u_registration_year');
+            obj.color = cusD.getValue('color');
+            obj.variant = cusD.getValue('variant')
+            obj.u_engine_details = cusD.getValue('u_engine_details')
+            array.push(obj);
+        }
+        return JSON.stringify(array);
+    },
+
+    checkPeopleSchedule: function(startDate, endDate) {
+        var strConvertedDateTime = new GlideScheduleDateTime(new GlideDateTime()).convertTimeZone("UTC", "IST");
+        var gdtConvertedDateTime = new GlideDateTime(strConvertedDateTime);
+		var startDt = new GlideDateTime(startDate);
+		var endDt = new GlideDateTime(endDate);
+
+        if (startDt > gdtConvertedDateTime && gdtConvertedDateTime < endDt) {
+               return true;
+        }
+		else{
+			return false;
 		}
-		return JSON.stringify(array);
-	},
+    },
 
     type: 'getCustomerInfo'
 });]]></script>
@@ -46,13 +60,13 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-18 10:38:08</sys_created_on>
         <sys_id>67110cbef336021006d80e554058b3ed</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>getCustomerInfo</sys_name>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_include_67110cbef336021006d80e554058b3ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-22 18:03:41</sys_updated_on>
+        <sys_updated_on>2024-06-25 13:01:51</sys_updated_on>
     </sys_script_include>
 </record_update>

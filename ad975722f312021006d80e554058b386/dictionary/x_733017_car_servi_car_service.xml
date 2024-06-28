@@ -36,7 +36,7 @@
         <element attributes="edge_encryption_enabled=true" label="XXXX" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Part 4" max_length="40" name="u_part_4" type="string"/>
         <element attributes="omit_sys_original=true" label="Part 6 : Price" max_length="20" name="u_currency_14" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Scheduled Start" mandatory="true" max_length="40" name="u_scheduled_start" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Scheduled Start" max_length="40" name="u_scheduled_start" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Model" max_length="40" name="u_model_toyota" type="string">
             <choice>
                 <element inactive_on_update="false" label="Urban Cruser" sequence="1" value="urban_cruser"/>
@@ -66,7 +66,7 @@
         <element label="Engine Oil" max_length="40" name="u_engine_oil" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_emails" read_only="true" type="string"/>
         <element label="KM Driven(in kilometers)" max_length="40" name="u_km_driven" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Scheduled End" mandatory="true" max_length="40" name="u_scheduled_end" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Scheduled End" max_length="40" name="u_scheduled_end" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Fuel Type" max_length="40" name="u_fuel_type" read_only="true" type="string"/>
         <element attributes="encode_utf8=false" label="Working Group" max_length="32" name="u_working_group" reference="sys_user_group" reference_qual="typeLIKEbe2a57e0f34b021006d80e554058b38d^EQ" reference_qual_condition="typeLIKEbe2a57e0f34b021006d80e554058b38d^EQ" type="reference"/>
         <element label="Total" max_length="40" name="u_total_price" read_only="true" type="float"/>
