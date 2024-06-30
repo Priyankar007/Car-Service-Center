@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -32,16 +32,23 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	//gs.addInfoMessage("Working Group :"+current.u_working_group)
+	
 	var memberArray = [];
+	var statDate = current.getDisplayValue('u_scheduled_start');
+	var endDate = current.getDisplayValue('u_scheduled_end');
+	
 	var getGroupMember = new GlideRecord("sys_user_grmember");
 	getGroupMember.addEncodedQuery("group="+current.u_working_group);
 	getGroupMember.query();
 	while(getGroupMember.next()){
-        memberArray.push(getGroupMember.user);
+       memberArray.push((getGroupMember.getDisplayValue("user")));
 		
 	}
-	current.u_assigned_people = memberArray[0];
+	var result = JSON.stringify(memberArray);
+	
+	var checkDate = new getCustomerInfo().checkPeopleSchedule(statDate,endDate);
+	//gs.addInfoMessage(checkDate);
+	
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -50,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9441cc1f383821006d80e554058b32b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Set Assigned To Dynamically based onTime</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
@@ -58,7 +65,7 @@
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_b9441cc1f383821006d80e554058b32b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-25 12:15:24</sys_updated_on>
+        <sys_updated_on>2024-06-30 12:23:52</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

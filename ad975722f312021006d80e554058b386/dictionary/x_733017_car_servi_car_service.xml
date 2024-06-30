@@ -32,7 +32,7 @@
         <element label="Brake Fluid" max_length="40" name="u_brake_fluid" type="boolean"/>
         <element label="Fuel Filter" max_length="40" name="u_fuel_filters" type="boolean"/>
         <element label="Cabin Air Filter" max_length="40" name="u_cabin_air_filter" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Approval Comment" mandatory="true" max_length="400" name="u_approval_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval Comment" max_length="400" name="u_approval_comment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="XXXX" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Part 4" max_length="40" name="u_part_4" type="string"/>
         <element attributes="omit_sys_original=true" label="Part 6 : Price" max_length="20" name="u_currency_14" type="currency"/>
@@ -74,7 +74,7 @@
         <element label="Brake Components" max_length="40" name="u_break_component" type="boolean"/>
         <element label="Air Filter" max_length="40" name="u_air_filter_outside" type="boolean"/>
         <element attributes="omit_sys_original=true" label="Part 1: Price" max_length="20" name="u_currency_9" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="customer_info" label="Stage" max_length="40" name="u_stage" read_only="true" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="customer_info" label="Stage" max_length="40" name="u_stage" type="string">
             <choice>
                 <element inactive_on_update="false" label="Customer Info" sequence="0" value="customer_info"/>
                 <element inactive_on_update="false" label="Assesment" sequence="1" value="assesment"/>
