@@ -1,408 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="In Progress(Changeable Items)" section_id="a00444fff3b6461006d80e554058b31c" sys_domain="global" table="x_733017_car_servi_car_service" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_scheduled_start</element>
+            <element>u_engine_oil_filter</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>d909db60f34b021006d80e554058b34a</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>deca7e87f303021006d80e554058b36c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_engine_oil_filter</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>d509db60f34b021006d80e554058b34b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_engine_oil</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>5d09db60f34b021006d80e554058b34b</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>56ca7e87f303021006d80e554058b36d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_oil_filter</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>d109db60f34b021006d80e554058b34c</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>daca7e87f303021006d80e554058b36d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_air_filters</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>5909db60f34b021006d80e554058b34c</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>52ca7e87f303021006d80e554058b36e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_air_filter_outside</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>dd09db60f34b021006d80e554058b34c</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>d6ca7e87f303021006d80e554058b36e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_cabin_air_filter</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>5509db60f34b021006d80e554058b34d</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>5eca7e87f303021006d80e554058b36e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_fuel_filters</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9109db60f34b021006d80e554058b35a</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>d2ca7e87f303021006d80e554058b36f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_part_1</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1909db60f34b021006d80e554058b35a</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>5aca7e87f303021006d80e554058b36f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_part_2</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9d09db60f34b021006d80e554058b35a</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>deca7e87f303021006d80e554058b36f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_part_3</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1509db60f34b021006d80e554058b35b</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>56ca7e87f303021006d80e554058b370</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_part_4</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9909db60f34b021006d80e554058b35b</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>daca7e87f303021006d80e554058b370</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_part_5</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1109db60f34b021006d80e554058b35c</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>52ca7e87f303021006d80e554058b371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_part_6</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9509db60f34b021006d80e554058b35c</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>d6ca7e87f303021006d80e554058b371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_approval_comment</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1d09db60f34b021006d80e554058b35c</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>5eca7e87f303021006d80e554058b371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9109db60f34b021006d80e554058b35d</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>d2ca7e87f303021006d80e554058b372</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_scheduled_end</element>
-            <position>16</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1909db60f34b021006d80e554058b35d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_spark_plug</element>
-            <position>17</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9d09db60f34b021006d80e554058b35d</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>5aca7e87f303021006d80e554058b372</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_break_component</element>
-            <position>18</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1509db60f34b021006d80e554058b35e</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>deca7e87f303021006d80e554058b372</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_break_pad_shoes</element>
-            <position>19</position>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9909db60f34b021006d80e554058b35e</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>56ca7e87f303021006d80e554058b373</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_brake_fluid</element>
-            <position>20</position>
+            <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1109db60f34b021006d80e554058b35f</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>daca7e87f303021006d80e554058b373</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_battery</element>
-            <position>21</position>
+            <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9509db60f34b021006d80e554058b35f</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>52ca7e87f303021006d80e554058b374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_currency_9</element>
-            <position>22</position>
+            <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1d09db60f34b021006d80e554058b35f</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>d6ca7e87f303021006d80e554058b374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_currency_10</element>
-            <position>23</position>
+            <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9109db60f34b021006d80e554058b360</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>5eca7e87f303021006d80e554058b374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_currency_11</element>
-            <position>24</position>
+            <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1909db60f34b021006d80e554058b360</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>d2ca7e87f303021006d80e554058b375</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_currency_12</element>
-            <position>25</position>
+            <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9d09db60f34b021006d80e554058b360</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>5aca7e87f303021006d80e554058b375</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_currency_13</element>
-            <position>26</position>
+            <position>24</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1509db60f34b021006d80e554058b361</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>deca7e87f303021006d80e554058b375</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_currency_14</element>
-            <position>27</position>
+            <position>25</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>9909db60f34b021006d80e554058b361</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>56ca7e87f303021006d80e554058b376</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_total_price</element>
-            <position>28</position>
+            <position>26</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-24 12:41:11</sys_created_on>
-            <sys_id>1109db60f34b021006d80e554058b362</sys_id>
+            <sys_created_on>2024-07-02 04:53:54</sys_created_on>
+            <sys_id>daca7e87f303021006d80e554058b376</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-24 12:41:11</sys_updated_on>
+            <sys_updated_on>2024-07-02 04:53:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

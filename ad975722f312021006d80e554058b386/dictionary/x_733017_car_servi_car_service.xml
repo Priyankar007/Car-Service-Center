@@ -4,6 +4,7 @@
         <element label="Battery" max_length="40" name="u_battery" type="boolean"/>
         <element label="Brake Pads/Shoes" max_length="40" name="u_break_pad_shoes" type="boolean"/>
         <element label="Spark Plugs" max_length="40" name="u_spark_plug" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing Details" max_length="1000" name="u_billing_details" type="string"/>
         <element label="Engine Oil and Oil Filter" max_length="40" name="u_engine_oil_filter" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Part 5" max_length="40" name="u_part_5" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Registration Year" max_length="40" name="u_registration_number" read_only="true" type="string"/>
