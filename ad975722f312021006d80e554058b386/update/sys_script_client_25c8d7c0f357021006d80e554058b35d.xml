@@ -4,47 +4,49 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>u_engine_oil</field>
+        <field>u_air_filter_outside</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Engine Oil</name>
+        <name>Air Filter</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
       return;
    }
-    
-	var ga = new GlideAjax('getCustomerInfo'); 
-ga.addParam('sysparm_name','getEngineOil'); 
-ga.addParam('sysparm_engine_oil',newValue); 
+
+
+   var ga = new GlideAjax('getCustomerInfo'); 
+ga.addParam('sysparm_name','getAirFilter'); 
+ga.addParam('sysparm_air_filter',newValue); 
 ga.getXML(HelloWorldParse); 
 function HelloWorldParse(response) {  
    var answer = response.responseXML.documentElement.getAttribute("answer"); 
     //alert(answer);
-	var valLable = g_form.getLabelOf("u_engine_oil");
+	var valLable = g_form.getLabelOf("u_air_filter_outside");
 	var conbn = valLable+" : "+answer;
 	g_form.setValue("u_temp_billing",conbn);
 	
 	
 }
+
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-03 12:25:51</sys_created_on>
+        <sys_created_on>2024-07-05 09:41:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>667be1ebf30b021006d80e554058b35f</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Engine Oil</sys_name>
+        <sys_id>25c8d7c0f357021006d80e554058b35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Air Filter</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
-        <sys_update_name>sys_script_client_667be1ebf30b021006d80e554058b35f</sys_update_name>
+        <sys_update_name>sys_script_client_25c8d7c0f357021006d80e554058b35d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 08:23:31</sys_updated_on>
+        <sys_updated_on>2024-07-05 09:41:48</sys_updated_on>
         <table>x_733017_car_servi_car_service</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

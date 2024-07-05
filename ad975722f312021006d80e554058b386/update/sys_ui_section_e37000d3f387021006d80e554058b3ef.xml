@@ -4,27 +4,55 @@
             <element>u_billing_details</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-02 13:00:22</sys_created_on>
-            <sys_id>5c2aa89bf34b021006d80e554058b31c</sys_id>
+            <sys_created_on>2024-07-05 12:53:14</sys_created_on>
+            <sys_id>15458458f35b021006d80e554058b3dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Billing Details" display_value="Billing Details" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">e37000d3f387021006d80e554058b3ef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-02 13:00:22</sys_updated_on>
+            <sys_updated_on>2024-07-05 12:53:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_temp_billing</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 12:53:14</sys_created_on>
+            <sys_id>99458458f35b021006d80e554058b3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Billing Details" display_value="Billing Details" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">e37000d3f387021006d80e554058b3ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 12:53:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_int_temps</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 12:53:14</sys_created_on>
+            <sys_id>11458458f35b021006d80e554058b3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Billing Details" display_value="Billing Details" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">e37000d3f387021006d80e554058b3ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 12:53:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_total</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-02 13:00:22</sys_created_on>
-            <sys_id>182aa89bf34b021006d80e554058b31d</sys_id>
+            <sys_created_on>2024-07-05 12:53:14</sys_created_on>
+            <sys_id>95458458f35b021006d80e554058b3dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Billing Details" display_value="Billing Details" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">e37000d3f387021006d80e554058b3ef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-02 13:00:22</sys_updated_on>
+            <sys_updated_on>2024-07-05 12:53:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

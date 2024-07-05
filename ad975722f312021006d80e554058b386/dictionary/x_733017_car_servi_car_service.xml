@@ -37,6 +37,7 @@
         <element attributes="edge_encryption_enabled=true" label="Approval Comment" max_length="400" name="u_approval_comment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="XXXX" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Part 4" max_length="40" name="u_part_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Temp Billing" max_length="100" name="u_temp_billing" type="string"/>
         <element attributes="omit_sys_original=true" label="Part 6 : Price" max_length="20" name="u_currency_14" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Scheduled Start" max_length="40" name="u_scheduled_start" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Model" max_length="40" name="u_model_toyota" type="string">
@@ -46,8 +47,10 @@
                 <element inactive_on_update="false" label="Innova" sequence="0" value="innova"/>
             </choice>
         </element>
+        <element label="Int Temp" max_length="40" name="u_int_temp" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="u_mobile_number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Receipt Number" max_length="40" name="u_receipt_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Int Temp" max_length="100" name="u_int_temps" type="string"/>
         <element attributes="encode_utf8=false" label="Location" max_length="32" name="u_location" read_only="true" reference="cmdb_multisource_deny_class" type="reference"/>
         <element label="Filters" max_length="40" name="u_air_filters" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" hint="Please describe the issue you are experiencing with your car" label="Customer Issues" max_length="400" name="u_customer_issue" type="string"/>
