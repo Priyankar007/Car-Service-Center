@@ -87,6 +87,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		return propVal;
 
 		}
+		else{
+			return 0;
+		}
 		
 	},
 
@@ -96,6 +99,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Oil Filter');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	getAirFilter : function(){
@@ -104,6 +110,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Air Filter');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	getCabinAirFilter : function(){
@@ -112,6 +121,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Cabin Air Filter');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	getFuelFilter : function(){
@@ -120,6 +132,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Fuel Filter');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	getSparkPlug : function(){
@@ -128,6 +143,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Spark Plugs');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	getBreakPadShoes : function(){
@@ -136,6 +154,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Brake Pads/Shoes');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	getBreakFluid : function(){
@@ -144,6 +165,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Brake Fluid');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	getBattery : function(){
@@ -152,6 +176,9 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		var propVal = gs.getProperty('x_733017_car_servi.Battery');
 		return propVal;
 	}
+	else{
+			return 0;
+		}
 	},
 
 	extractIntegerValue : function(){
@@ -167,13 +194,13 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-18 10:38:08</sys_created_on>
         <sys_id>67110cbef336021006d80e554058b3ed</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name>getCustomerInfo</sys_name>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_include_67110cbef336021006d80e554058b3ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 13:16:26</sys_updated_on>
+        <sys_updated_on>2024-07-07 11:33:48</sys_updated_on>
     </sys_script_include>
 </record_update>
