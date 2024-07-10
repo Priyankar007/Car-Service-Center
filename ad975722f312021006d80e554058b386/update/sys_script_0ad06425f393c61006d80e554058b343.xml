@@ -33,9 +33,9 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	var billDetails = current.getValue("u_billing_details");
+	
     var total = current.getValue("u_totalls");
     var htmlD = total.toString();
-    //var html = "<h1>Billing Info</h1><p style='text-indent: 50px;'><i>" +"Total"+ htmlD + "</i></p><p style='text-indent: 50px;'>" +"Item Detail : - "+ billDetails +","+ "</p>";
 
 	var html = `
     <html>
@@ -98,7 +98,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ad06425f393c61006d80e554058b343</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Attach PDF of Billing Details </sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
@@ -106,7 +106,7 @@
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_0ad06425f393c61006d80e554058b343</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-09 12:39:39</sys_updated_on>
+        <sys_updated_on>2024-07-09 12:52:26</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
