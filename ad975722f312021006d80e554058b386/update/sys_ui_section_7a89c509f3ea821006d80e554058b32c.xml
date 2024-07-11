@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Insurance Detail" section_id="7a89c509f3ea821006d80e554058b32c" sys_domain="global" table="x_733017_car_servi_customer_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_insurance_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 11:55:11</sys_created_on>
+            <sys_id>85f494baf3b6021006d80e554058b302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Insurance Detail" display_value="Insurance Detail" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">7a89c509f3ea821006d80e554058b32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 11:55:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rto_location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 11:55:11</sys_created_on>
+            <sys_id>0df494baf3b6021006d80e554058b302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Insurance Detail" display_value="Insurance Detail" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">7a89c509f3ea821006d80e554058b32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 11:55:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 11:55:11</sys_created_on>
+            <sys_id>81f494baf3b6021006d80e554058b303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Insurance Detail" display_value="Insurance Detail" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">7a89c509f3ea821006d80e554058b32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 11:55:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_policy_issue_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 11:55:11</sys_created_on>
+            <sys_id>09f494baf3b6021006d80e554058b303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Insurance Detail" display_value="Insurance Detail" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">7a89c509f3ea821006d80e554058b32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 11:55:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_driving_lic</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 11:55:11</sys_created_on>
+            <sys_id>8df494baf3b6021006d80e554058b303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Insurance Detail" display_value="Insurance Detail" name="x_733017_car_servi_customer_details" sys_domain="global" view="Default view">7a89c509f3ea821006d80e554058b32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 11:55:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Insurance Detail</caption>
+            <header>false</header>
+            <name>x_733017_car_servi_customer_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 18:59:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a89c509f3ea821006d80e554058b32c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_733017_car_servi_customer_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+            <sys_update_name>sys_ui_section_7a89c509f3ea821006d80e554058b32c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 18:59:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

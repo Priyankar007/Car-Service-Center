@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_733017_car_servi_car_service</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_733017_car_servi_car_service">u_working_groupISNOTEMPTY^u_assigned_peopleISEMPTY^ORu_assigned_peopleISNOTEMPTY^EQ<item endquery="false" field="u_working_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_assigned_people" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_assigned_people" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Test BR</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var groupMember = ["443193dcd7011200f2d224837e61037d","62826bf03710200044e0bfc8bcbe5de8","aa826bf03710200044e0bfc8bcbe5dd6","1e826bf03710200044e0bfc8bcbe5dc9"]
+	var stDt = current.getDisplayValue('u_scheduled_start');
+	var enDt = current.getDisplayValue('u_scheduled_end');
+	
+	var setUser = new getCustomerInfo().setAssignedTo(groupMember,stDt,enDt);
+	gs.addInfoMessage("result of set user :"+ setUser);
+	if(setUser === 'false'){
+		gs.addErrorMessage("Technition is busy");
+		return;
+	}
+	else{
+	current.u_assigned_people = setUser;
+	current.update();
+	}
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-01 05:50:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49cd793ef38f821006d80e554058b339</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Test BR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sys_script_49cd793ef38f821006d80e554058b339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 07:47:38</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=49cd793ef38f821006d80e554058b339"/>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get Options</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+
+   var ga = new GlideAjax('getOptionFromapi'); // HelloWorld is the script include class 
+ga.addParam('sysparm_name','getOptions'); // helloWorld is the script include method 
+//ga.addParam('sysparm_user_name',"Bob"); // Set parameter sysparm_user_name to 'Bob' 
+ga.getXML(HelloWorldParse);  
+function HelloWorldParse(response) {  
+   var answer = response.responseXML.documentElement.getAttribute("answer"); 
+
+    alert(answer);
+}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-24 11:45:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba822f2af352021006d80e554058b3f1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sys_script_client_ba822f2af352021006d80e554058b3f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-24 12:22:58</sys_updated_on>
+        <table>x_733017_car_servi_customer_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

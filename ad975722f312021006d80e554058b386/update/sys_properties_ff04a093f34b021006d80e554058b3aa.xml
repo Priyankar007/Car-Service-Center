@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Air Filter Price</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_733017_car_servi.Air Filter</name>
+        <read_roles/>
+        <suffix>Air Filter</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 12:34:25</sys_created_on>
+        <sys_id>ff04a093f34b021006d80e554058b3aa</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_733017_car_servi.Air Filter</sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sys_properties_ff04a093f34b021006d80e554058b3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-08 10:54:21</sys_updated_on>
+        <type>integer</type>
+        <value>₹400,</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff04a093f34b021006d80e554058b3aa"/>
+</record_update>

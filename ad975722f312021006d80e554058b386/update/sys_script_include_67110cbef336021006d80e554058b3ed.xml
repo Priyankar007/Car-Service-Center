@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_733017_car_servi.getCustomerInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getCustomerInfo</name>
+        <script><![CDATA[var getCustomerInfo = Class.create();
+getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getCustomerDetails: function() {
+        var array = [];
+        var paramt = this.getParameter("sysparm_user_name");
+        var cusD = new GlideRecordSecure("x_733017_car_servi_customer_details");
+        cusD.addActiveQuery();
+        cusD.addQuery('sys_id', paramt);
+        cusD.query();
+        if (cusD.next()) {
+            var obj = {};
+            obj.first_name = cusD.getValue('first_name');
+            obj.last_name = cusD.getValue('last_name');
+            obj.email = cusD.getValue('email');
+            obj.mobile_phone = cusD.getValue('mobile_phone');
+            obj.location = cusD.getValue('u_address');
+            obj.location2 = cusD.getDisplayValue('u_address'); // FOR DISPLAY VALUE OF LOCATION
+            obj.car_company = cusD.getValue('car_company');
+            ///Vehical Info
+            obj.u_string_6 = cusD.getValue('u_string_6');
+            obj.u_modle = cusD.getValue('u_modle');
+            obj.u_fuel_type = cusD.getValue('u_fuel_type');
+            obj.u_transmission = cusD.getValue('u_transmission');
+            obj.u_registration_year = cusD.getValue('u_registration_year');
+            obj.color = cusD.getValue('color');
+            obj.variant = cusD.getValue('variant')
+            obj.u_engine_details = cusD.getValue('u_engine_details')
+            array.push(obj);
+        }
+        return JSON.stringify(array);
+    },
+
+    checkPeopleSchedule: function(startDate, endDate) {
+        var gdt = new GlideDateTime();
+        var currentDateTime = gdt.getDisplayValueInternal();
+
+        var startDt = new GlideDateTime(startDate);
+        var endDt = new GlideDateTime(endDate);
+
+        if (currentDateTime > startDt && currentDateTime < endDt) {
+            return 'inBetween';
+        } else {
+            return 'OOS';
+        }
+    },
+
+    setAssignedTo: function() {
+
+        var assignedppl = this.getParameter("sysparm_assigned_people");
+        
+        var carService = new GlideRecord("x_733017_car_servi_car_service");
+        carService.addEncodedQuery("u_assigned_people=" + assignedppl);
+        carService.query();
+        if (carService.next()) {
+            var schedStart = carService.getValue("u_scheduled_start");
+            var schedEnd = carService.getValue("u_scheduled_end");
+
+            var finalSTD = new GlideDateTime(schedStart).getDisplayValueInternal();
+            var finalEND = new GlideDateTime(schedEnd).getDisplayValueInternal();
+
+           var checkScheduled = new getCustomerInfo().checkPeopleSchedule(finalSTD, finalEND);
+            
+
+            if (checkScheduled === 'inBetween') {
+                return true;
+            } else if (checkScheduled === 'OOS') {
+                return false;
+            }
+
+        }
+    },
+	getEngineOil : function(){
+		
+		var enginOil  =	this.getParameter("sysparm_engine_oil");
+		if(enginOil === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Properties for car service application');
+		return propVal;
+
+		}
+		else{
+			return 0;
+		}
+		
+	},
+
+	getOilFilter : function(){
+		var oilFilter = this.getParameter("sysparm_oil_filter");
+		if(oilFilter === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Oil Filter');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	getAirFilter : function(){
+		var airFilter = this.getParameter("sysparm_air_filter");
+		if(airFilter === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Air Filter');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	getCabinAirFilter : function(){
+		var airCabinairFilter = this.getParameter("sysparm_cabin_air_filter");
+		if(airCabinairFilter === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Cabin Air Filter');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	getFuelFilter : function(){
+		var fuelFilter = this.getParameter("sysparm_fuel_filter");
+		if(fuelFilter === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Fuel Filter');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	getSparkPlug : function(){
+		var sparkPlug = this.getParameter("sysparm_spark_plug");
+		if(sparkPlug === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Spark Plugs');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	getBreakPadShoes : function(){
+		var breakPadShoes = this.getParameter("sysparm_break_pad_shoes");
+		if(breakPadShoes === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Brake Pads/Shoes');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	getBreakFluid : function(){
+		var breakFluid = this.getParameter("sysparm_break_fluid");
+		if(breakFluid === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Brake Fluid');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	getBattery : function(){
+		var battery = this.getParameter("sysparm_battery");
+		if(battery === 'true'){
+		var propVal = gs.getProperty('x_733017_car_servi.Battery');
+		return propVal;
+	}
+	else{
+			return 0;
+		}
+	},
+
+	extractIntegerValue : function(){
+
+		var tempInt = this.getParameter("sysparm_temp_field");
+		return tempInt;
+
+	},
+
+    type: 'getCustomerInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-18 10:38:08</sys_created_on>
+        <sys_id>67110cbef336021006d80e554058b3ed</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>getCustomerInfo</sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sys_script_include_67110cbef336021006d80e554058b3ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-07 11:33:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

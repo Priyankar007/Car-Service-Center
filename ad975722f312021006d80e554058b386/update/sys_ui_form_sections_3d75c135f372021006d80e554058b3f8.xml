@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3d75c135f372021006d80e554058b3f8" sys_domain="global" table="x_733017_car_servi_car_service" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-18 12:02:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c286d83ef3b6021006d80e554058b315</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_car_service" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3d75c135f372021006d80e554058b3f8</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3586983ef3b6021006d80e554058b39f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-18 12:02:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-15 12:53:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b975c135f372021006d80e554058b3fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_car_service" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3d75c135f372021006d80e554058b3f8</sys_ui_form>
+            <sys_ui_section caption="Customer Detail" display_value="Customer Detail" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3975c135f372021006d80e554058b3f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-15 12:53:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-21 12:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5263bb2bf376461006d80e554058b3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_car_service" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3d75c135f372021006d80e554058b3f8</sys_ui_form>
+            <sys_ui_section caption="Assessment" display_value="Assessment" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">1e63bb2bf376461006d80e554058b335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:02:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-21 13:15:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c0444fff3b6461006d80e554058b31f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_car_service" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3d75c135f372021006d80e554058b3f8</sys_ui_form>
+            <sys_ui_section caption="In Progress(Changeable Items)" display_value="In Progress(Changeable Items)" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">a00444fff3b6461006d80e554058b31c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-21 13:15:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-21 12:04:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8c3376bf376461006d80e554058b3a9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_car_service" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3d75c135f372021006d80e554058b3f8</sys_ui_form>
+            <sys_ui_section caption="Description" display_value="Description" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">84c3f36bf376461006d80e554058b387</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-21 13:15:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-02 09:58:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f7000d3f387021006d80e554058b3f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_733017_car_servi_car_service" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">3d75c135f372021006d80e554058b3f8</sys_ui_form>
+            <sys_ui_section caption="Billing Details" display_value="Billing Details" name="x_733017_car_servi_car_service" sys_domain="global" view="Default view">e37000d3f387021006d80e554058b3ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-02 09:58:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_733017_car_servi_car_service</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-15 12:53:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d75c135f372021006d80e554058b3f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_733017_car_servi_car_service</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3d75c135f372021006d80e554058b3f8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-15 12:53:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

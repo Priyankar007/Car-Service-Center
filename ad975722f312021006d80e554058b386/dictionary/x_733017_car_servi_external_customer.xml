@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="078e89c8f30b021006d80e554058b367" extends="x_733017_car_servi_customer_details" label="External Customer " max_length="40" name="x_733017_car_servi_external_customer" type="collection">
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="External ID Nos" max_length="40" name="u_external_id" type="string" use_dynamic_default="true"/>
+    </element>
+</database>

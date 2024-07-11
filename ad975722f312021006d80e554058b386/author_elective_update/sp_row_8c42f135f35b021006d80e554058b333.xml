@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Auto Hub Index - Container 2">8622b135f35b021006d80e554058b3e9</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 12:40:17</sys_created_on>
+        <sys_id>8c42f135f35b021006d80e554058b333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sp_row_8c42f135f35b021006d80e554058b333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 12:40:17</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Service Center">ad975722f312021006d80e554058b386</application>
+        <file_path/>
+        <instance_id>05a26e231b35061c65324089bd4bcb82</instance_id>
+        <instance_name>dev263179</instance_name>
+        <name>sp_row_8c42f135f35b021006d80e554058b333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Auto Hub Index - Container 2">8622b135f35b021006d80e554058b3e9</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-10 12:40:17</sys_created_on><sys_id>8c42f135f35b021006d80e554058b333</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package><sys_policy/><sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope><sys_update_name>sp_row_8c42f135f35b021006d80e554058b333</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-10 12:40:17</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>109823622</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>e22e1975f3d7021006d80e554058b3dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 12:40:17</sys_created_on>
+        <sys_id>4042f135f35b021006d80e554058b336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1909ca8a9bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 12:40:17</sys_updated_on>
+        <type>Row</type>
+        <update_guid>4442f135d95b0210edc3682aaa825435</update_guid>
+        <update_guid_history>4442f135d95b0210edc3682aaa825435:109823622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">6152f535f35b021006d80e554058b30a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 12:40:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>3986b401bd0c49eb8e1bad918009beb9</sys_id>
+        <sys_metadata>8c42f135f35b021006d80e554058b333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_scope_delete display_value="">d2d1f4adc4cb44f3a9e61bae3a2bb449</sys_scope_delete>
+        <sys_update_name>sp_row_8c42f135f35b021006d80e554058b333</sys_update_name>
+        <sys_update_version display_value="sp_row_8c42f135f35b021006d80e554058b333">4042f135f35b021006d80e554058b336</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 12:40:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

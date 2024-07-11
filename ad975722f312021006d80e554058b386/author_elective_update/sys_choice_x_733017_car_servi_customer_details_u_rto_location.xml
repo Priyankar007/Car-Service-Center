@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_rto_location" table="x_733017_car_servi_customer_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_rto_location</element>
+            <name>x_733017_car_servi_customer_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:02:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_rto_location</sys_name>
+            <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+            <sys_update_name>sys_choice_x_733017_car_servi_customer_details_u_rto_location</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:02:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Andhra Pradesh</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:34</sys_updated_on>
+            <value>andhra pradesh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arunachal Pradesh</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:34</sys_updated_on>
+            <value>arunachal pradesh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assam</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:34</sys_updated_on>
+            <value>assam</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bihar</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:34</sys_updated_on>
+            <value>bihar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chhattisgarh</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:34</sys_updated_on>
+            <value>chhattisgarh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goa</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:34</sys_updated_on>
+            <value>goa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gujarat</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:34</sys_updated_on>
+            <value>gujarat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Haryana</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>haryana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Himachal Pradesh</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>himachal pradesh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jharkhand</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>jharkhand</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Karnataka</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>karnataka</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kerala</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>kerala</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Madhya Pradesh</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>madhya pradesh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maharashtra</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>maharashtra</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manipur</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>manipur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meghalaya</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>meghalaya</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mizoram</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:35</sys_updated_on>
+            <value>mizoram</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nagaland</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>nagaland</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Odisha</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>odisha</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Punjab</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>punjab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rajasthan</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>rajasthan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sikkim</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>sikkim</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tamil Nadu</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>tamil nadu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Telangana</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>telangana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tripura</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>tripura</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Uttar Pradesh</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:36</sys_updated_on>
+            <value>uttar pradesh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Uttarakhand</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:37</sys_updated_on>
+            <value>uttarakhand</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>West Bengal</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:19:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:19:37</sys_updated_on>
+            <value>west bengal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rto_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_733017_car_servi_customer_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 19:14:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 19:14:22</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

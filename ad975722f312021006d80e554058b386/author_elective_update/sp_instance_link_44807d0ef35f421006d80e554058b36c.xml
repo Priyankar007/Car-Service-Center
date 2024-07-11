@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name>btn-success</class_name>
+        <color>default</color>
+        <css/>
+        <glyph>question</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>4</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Get expert suggesstion on buying or selling new Car</short_description>
+        <size>md</size>
+        <sp_column display_value="2">b172b535f35b021006d80e554058b362</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 07:11:07</sys_created_on>
+        <sys_id>44807d0ef35f421006d80e554058b36c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ask a Question </sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sp_instance_link_44807d0ef35f421006d80e554058b36c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 07:15:32</sys_updated_on>
+        <title>Ask a Question </title>
+        <type>url</type>
+        <url>sp?id=sc_cat_item&amp;sys_id=66c313e7c0a8016b008ebe1a8e3d97f5&amp;sysparm_category=2595fd39f35b021006d80e554058b301</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=44807d0ef35f421006d80e554058b36c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Service Center">ad975722f312021006d80e554058b386</application>
+        <file_path/>
+        <instance_id>05a26e231b35061c65324089bd4bcb82</instance_id>
+        <instance_name>dev263179</instance_name>
+        <name>sp_instance_link_44807d0ef35f421006d80e554058b36c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name&gt;btn-success&lt;/class_name&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;question&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;4&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Get expert suggesstion on buying or selling new Car&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;b172b535f35b021006d80e554058b362&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-11 07:11:07&lt;/sys_created_on&gt;&lt;sys_id&gt;44807d0ef35f421006d80e554058b36c&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ask a Question &lt;/sys_name&gt;&lt;sys_package display_value="Car Service Center" source="x_733017_car_servi"&gt;ad975722f312021006d80e554058b386&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Service Center"&gt;ad975722f312021006d80e554058b386&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_44807d0ef35f421006d80e554058b36c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-11 07:15:32&lt;/sys_updated_on&gt;&lt;title&gt;Ask a Question &lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;sp?id=sc_cat_item&amp;amp;sys_id=66c313e7c0a8016b008ebe1a8e3d97f5&amp;amp;sysparm_category=2595fd39f35b021006d80e554058b301&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=44807d0ef35f421006d80e554058b36c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-110866741</payload_hash>
+        <record_name>Ask a Question </record_name>
+        <reverted_from/>
+        <source>e22e1975f3d7021006d80e554058b3dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 07:15:32</sys_created_on>
+        <sys_id>f881798ef35f421006d80e554058b339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190a0a5b5b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 07:15:32</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>7881fd0ec75f42102578f6d6e17de12e</update_guid>
+        <update_guid_history>7881fd0ec75f42102578f6d6e17de12e:-110866741,df61b58ed55f4210c1e778ac58e3d8b5:369993962,4341b54eec5f4210f08b41022e4a7353:-1981270411,c8807d0e5c5f4210f6004a33cb67d36d:-829614039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ask a Question ">ded23902f39f421006d80e554058b3b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 07:21:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>4626d2d3c92a45f08ef2424c784e1684</sys_id>
+        <sys_metadata>44807d0ef35f421006d80e554058b36c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ask a Question </sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_scope_delete display_value="">d2d1f4adc4cb44f3a9e61bae3a2bb449</sys_scope_delete>
+        <sys_update_name>sp_instance_link_44807d0ef35f421006d80e554058b36c</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_44807d0ef35f421006d80e554058b36c">f881798ef35f421006d80e554058b339</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 07:21:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
