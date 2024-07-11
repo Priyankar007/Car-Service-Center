@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Car Insurance ">7d845d46f3db421006d80e554058b301</sc_cat_item>
+        <sc_category display_value="Car Service">2595fd39f35b021006d80e554058b301</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-11 05:19:33</sys_created_on>
+        <sys_id>39f6558af3db421006d80e554058b323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Service.Car Insurance </sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sc_cat_item_category_39f6558af3db421006d80e554058b323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-11 05:19:33</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

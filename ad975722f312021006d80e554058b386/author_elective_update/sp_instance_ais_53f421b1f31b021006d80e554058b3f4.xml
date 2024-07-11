@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8aa3e131f31b021006d80e554058b3bb</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 11:42:20</sys_created_on>
+        <sys_id>53f421b1f31b021006d80e554058b3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sp_instance_ais_53f421b1f31b021006d80e554058b3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 11:42:20</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=53f421b1f31b021006d80e554058b3f4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Service Center">ad975722f312021006d80e554058b386</application>
+        <file_path/>
+        <instance_id>05a26e231b35061c65324089bd4bcb82</instance_id>
+        <instance_name>dev263179</instance_name>
+        <name>sp_instance_ais_53f421b1f31b021006d80e554058b3f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">8aa3e131f31b021006d80e554058b3bb</sp_column><sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-10 11:42:20</sys_created_on><sys_id>53f421b1f31b021006d80e554058b3f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package><sys_policy/><sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope><sys_update_name>sp_instance_ais_53f421b1f31b021006d80e554058b3f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-10 11:42:20</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=53f421b1f31b021006d80e554058b3f4"/></record_update>]]></payload>
+        <payload_hash>1198256423</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e22e1975f3d7021006d80e554058b3dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 11:42:20</sys_created_on>
+        <sys_id>57f421b1f31b021006d80e554058b3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1909c739ba10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 11:42:20</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>5bf421b1dd1b02105314ec8ff093b1f6</update_guid>
+        <update_guid_history>5bf421b1dd1b02105314ec8ff093b1f6:1198256423</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">941561b1f31b021006d80e554058b38d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-10 11:42:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>07d9149eb1a24ca280453ba910c06779</sys_id>
+        <sys_metadata>53f421b1f31b021006d80e554058b3f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_scope_delete display_value="">d2d1f4adc4cb44f3a9e61bae3a2bb449</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_53f421b1f31b021006d80e554058b3f4</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_53f421b1f31b021006d80e554058b3f4">57f421b1f31b021006d80e554058b3f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-10 11:42:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
