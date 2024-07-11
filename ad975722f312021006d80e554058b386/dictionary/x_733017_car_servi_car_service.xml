@@ -81,7 +81,7 @@
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" read_only="true" type="string"/>
         <element label="Brake Components" max_length="40" name="u_break_component" type="boolean"/>
         <element label="Air Filter" max_length="40" name="u_air_filter_outside" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="customer_info" label="Stage" max_length="40" name="u_stage" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="customer_info" label="Stage" max_length="40" name="u_stage" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Customer Info" sequence="0" value="customer_info"/>
                 <element inactive_on_update="false" label="Assesment" sequence="1" value="assesment"/>
