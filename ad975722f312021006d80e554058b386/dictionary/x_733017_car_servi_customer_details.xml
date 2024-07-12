@@ -32,23 +32,23 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Car Company" max_length="40" name="car_company" type="string">
             <choice>
                 <element inactive_on_update="false" label="Toyota" sequence="8" value="toyota"/>
-                <element inactive="true" inactive_on_update="true" label="Tesla" sequence="13" value="tesla"/>
+                <element inactive_on_update="false" label="Tesla" sequence="8" value="tesla"/>
                 <element inactive_on_update="false" label="Chevrolet" sequence="2" value="chevrolet"/>
-                <element inactive="true" inactive_on_update="true" label="Mercedes-Benz" sequence="11" value="mercedes-benz"/>
-                <element inactive="true" inactive_on_update="true" label="Honda" sequence="8" value="honda"/>
+                <element inactive_on_update="false" label="Mercedes-Benz" sequence="6" value="mercedes-benz"/>
+                <element inactive_on_update="false" label="Honda" sequence="4" value="honda"/>
                 <element inactive_on_update="false" label="Honda" sequence="4" value="honda"/>
                 <element inactive_on_update="false" label="Ford" sequence="3" value="ford"/>
-                <element inactive_on_update="false" label="Chevrolet" sequence="1" value="chevrolet"/>
+                <element inactive="true" inactive_on_update="true" label="Chevrolet" sequence="2" value="chevrolet"/>
                 <element inactive_on_update="false" label="Ford" sequence="2" value="ford"/>
                 <element inactive_on_update="false" label="Ford" sequence="1" value="ford"/>
                 <element inactive_on_update="false" label="Nissan" sequence="12" value="nissan"/>
-                <element inactive_on_update="false" label="Toyota" sequence="5" value="toyota"/>
-                <element inactive="true" inactive_on_update="true" label="Subaru" sequence="12" value="subaru"/>
+                <element inactive="true" inactive_on_update="true" label="Toyota" sequence="9" value="toyota"/>
+                <element inactive_on_update="false" label="Subaru" sequence="7" value="subaru"/>
                 <element inactive_on_update="false" label="Tesla" sequence="8" value="tesla"/>
                 <element inactive_on_update="false" label="Mercedes-Benz" sequence="6" value="mercedes-benz"/>
-                <element inactive_on_update="false" label="Ford" sequence="0" value="ford"/>
-                <element inactive="true" inactive_on_update="true" label="Audi" sequence="4" value="audi"/>
-                <element inactive="true" inactive_on_update="true" label="BMW" sequence="6" value="bmw"/>
+                <element inactive="true" inactive_on_update="true" label="Ford" sequence="0" value="ford"/>
+                <element inactive_on_update="false" label="Audi" sequence="2" value="audi"/>
+                <element inactive_on_update="false" label="BMW" sequence="3" value="bmw"/>
                 <element inactive_on_update="false" label="Jeep" sequence="9" value="jeep"/>
                 <element inactive_on_update="false" label="Toyota" sequence="5" value="toyota"/>
                 <element inactive_on_update="false" label="BMW" sequence="3" value="bmw"/>

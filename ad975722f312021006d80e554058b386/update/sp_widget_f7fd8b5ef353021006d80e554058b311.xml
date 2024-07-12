@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($rootScope,spUtil) {
+  /* widget controller */
+  var c = this;
+	
+	$rootScope.$on('CustMessage',function(event, data){
+		c.data.emitValue = $rootScope.formValue
+	
+	})
+	
+	c.registerUser = function(){
+		
+		c.server.get({
+			action : 'createUser',
+			userid : c.data.userID,
+			firstname : c.data.FirstName,
+			lastname : c.data.lastName,
+			email : c.data.email,
+			mobile : c.data.mobile,
+			password : c.data.pwd
+		}).then(function(r){
+			if(r.data.flag === 'true'){
+				spUtil.addErrorMessage("Record Already Present , Please go for forgot password")
+				return ;
+			}
+			else{
+				spUtil.addInfoMessage("Record Successfully Created ")
+			}
+			
+		})
+		
+	}
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>To Register External Customers </description>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>autohub_registration_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>AutoHub Registration form </name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	data.emitValue = "";
+	data.flag = ""
+	
+	if(input && input.action==='createUser'){
+		
+		var exterUser = new GlideRecord("x_733017_car_servi_external_customer");
+		exterUser.addQuery("email="+input.email);
+		exterUser.query();
+		if(exterUser.next()){
+			data.flag = 'true'
+		}
+		else{
+		
+		
+		exterUser.newRecord();
+		exterUser.user_name = input.userid
+		exterUser.first_name = input.firstname
+		exterUser.last_name = input.lastname
+		
+		exterUser.email = input.email
+		exterUser.mobile_phone = input.mobile
+		//exterUser.user_password = input.password
+		exterUser.setValue("user_password",input.password);
+		exterUser.password_needs_reset='true';
+		exterUser.insert();
+			
+		}
+		
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-12 08:39:05</sys_created_on>
+        <sys_id>f7fd8b5ef353021006d80e554058b311</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>AutoHub Registration form </sys_name>
+        <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
+        <sys_update_name>sp_widget_f7fd8b5ef353021006d80e554058b311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-12 09:51:57</sys_updated_on>
+        <template><![CDATA[<form ng-show="c.data.emitValue">
+  <div class="form-group">
+    <label for="userid">User ID:</label>
+    <input type="text" class="form-control" id="userid"
+           ng-model="c.data.userID">
+  </div>
+  <div>
+  <label for="firstName">First Name:</label>
+    <input type="text" class="form-control" id="firstName"
+            ng-model="c.data.FirstName">
+  </div>
+  <div>
+<label for="lastname">Last Name :</label>
+    <input type="text" class="form-control" id="lastname"
+            ng-model="c.data.lastName">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email"
+            ng-model="c.data.email">
+  </div>
+  <div class="form-group">
+    <label for="mobile">Mobile Nos:</label>
+    <input type="text" class="form-control" id="mobile"
+            ng-model="c.data.mobile">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd"
+            ng-model="c.data.pwd">
+  </div>
+  
+ <button type="submit" class="btn btn-default"
+         ng-click="c.registerUser()">Submit</button>
+</form>]]></template>
+    </sp_widget>
+</record_update>

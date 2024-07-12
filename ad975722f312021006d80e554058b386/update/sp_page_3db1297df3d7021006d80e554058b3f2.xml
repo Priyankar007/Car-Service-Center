@@ -8,7 +8,7 @@
         <id>ath_index</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <seo_script/>
         <short_description/>
@@ -16,14 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-10 11:28:28</sys_created_on>
         <sys_id>3db1297df3d7021006d80e554058b3f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ath_index</sys_name>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sp_page_3db1297df3d7021006d80e554058b3f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-10 11:28:28</sys_updated_on>
+        <sys_updated_on>2024-07-11 12:58:44</sys_updated_on>
         <title>Auto Hub Index</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
