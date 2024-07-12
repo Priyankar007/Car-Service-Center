@@ -18,13 +18,13 @@
    var ga = new GlideAjax('getCustomerInfo'); 
 ga.addParam('sysparm_name','setAssignedTo'); 
 ga.addParam('sysparm_assigned_people',newValue);
-ga.addParam('sysparm_scheduled_start',g_form.getValue("u_scheduled_start"));
-ga.addParam('sysparm_scheduled_end',g_form.getValue("u_scheduled_end"))  
+//ga.addParam('sysparm_uniqueValue',g_form.getUniqueValue());
+//ga.addParam('sysparm_scheduled_end',g_form.getValue("u_scheduled_end")); 
 ga.getXML(HelloWorldParse);  
 function HelloWorldParse(response) {  
    var answer = response.responseXML.documentElement.getAttribute("answer"); 
-   
     if(answer === 'true'){
+		
 		g_form.clearValue("u_assigned_people");
 		g_form.showFieldMsg("u_assigned_people",'Technician is already working','error');
 		}
@@ -40,7 +40,7 @@ function HelloWorldParse(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>688bbec7f303021006d80e554058b336</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Set Assigned People</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
@@ -48,7 +48,7 @@ function HelloWorldParse(response) {
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_client_688bbec7f303021006d80e554058b336</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-02 09:35:51</sys_updated_on>
+        <sys_updated_on>2024-07-12 18:45:32</sys_updated_on>
         <table>x_733017_car_servi_car_service</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
