@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>getCustomerInfo</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var getCustomerInfo = Class.create();
 getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
@@ -46,7 +48,8 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
         var startDt = new GlideDateTime(startDate);
         var endDt = new GlideDateTime(endDate);
-
+        gs.info("@@@@@startDt"+startDt);
+		gs.info("@@@@@endDt"+endDt);
         if (currentDateTime > startDt && currentDateTime < endDt) {
             return 'inBetween';
         } else {
@@ -60,7 +63,7 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         
         var carService = new GlideRecord("x_733017_car_servi_car_service");
         carService.addQuery("u_assigned_people="+assignedppl);
-		carService.addEncodedQuery("u_scheduled_startONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^u_scheduled_endONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()")
+		carService.addEncodedQuery("u_scheduled_startONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^u_scheduled_endONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()");
         carService.query();
         if (carService.next()) {
 			
@@ -195,13 +198,24 @@ getCustomerInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-18 10:38:08</sys_created_on>
         <sys_id>67110cbef336021006d80e554058b3ed</sys_id>
-        <sys_mod_count>83</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_name>getCustomerInfo</sys_name>
         <sys_package display_value="Car Service Center" source="x_733017_car_servi">ad975722f312021006d80e554058b386</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car Service Center">ad975722f312021006d80e554058b386</sys_scope>
         <sys_update_name>sys_script_include_67110cbef336021006d80e554058b3ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-12 18:45:06</sys_updated_on>
+        <sys_updated_on>2024-11-13 12:24:27</sys_updated_on>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>67110cbef336021006d80e554058b3ed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 12:22:21</sys_created_on>
+        <sys_id>fd76e61a83391210c7bfc810feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-13 12:22:21</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
